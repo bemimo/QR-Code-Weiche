@@ -1,0 +1,28 @@
+<html>
+<head>
+
+
+
+</head>
+
+<body>
+
+
+    
+
+<script type="text/javascript">
+    var iOS = navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+    if (iOS) {
+        window.location.replace("https://apps.apple.com/de/app/itour-city-guide/id1112894335");
+    }
+
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1;
+    if (isAndroid) {
+      window.location.replace(
+        "https://play.google.com/store/apps/details?id=de.itour.cityguide"
+      );
+    }
+</script>
+</body>
+</html>
